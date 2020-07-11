@@ -66,7 +66,8 @@ public class Application {
                         "<password>",
                         "/path/to/<walletfile>");
         log.info("Credentials loaded");
-        
+        System.out.println("Hello");
+        int k=0;
         File file = null;
         System.out.print("test");
         String fileName = "";
