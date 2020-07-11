@@ -90,5 +90,13 @@ public class Application {
         log.info("Deploying smart contract");
         ContractGasProvider contractGasProvider = new DefaultGasProvider();
         System.out.println("Hello");
+        System.out.println("Test");
+         function Circle (d:int) {
+             if (d == 0) {
+            this.diameter = -1;	
+        } else {
+            this.diameter = d;
+        }
+    }
     }
 }
